@@ -1,0 +1,11 @@
+pip install --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-0.12.0rc0-cp35-cp35m-win_amd64.whl 
+conda create -n tensor1 python =3.5
+python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
+pip install -I tensorflow
+pip install keras
+conda install -c menpo opencv 
+pip install apiai
+pip install tkinter
+pip install flask
+pip install json
+pip install os
